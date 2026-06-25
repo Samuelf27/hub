@@ -4,6 +4,7 @@ const GH = 'https://github.com/Samuelf27';
 const PG = 'https://samuelf27.github.io';
 
 const PROJECTS = [
+  { icon: '📊', name: 'Admin Dashboard', cat: 'Corporativo', desc: 'Painel administrativo profissional: autenticação, CRUD, tabela de dados, gráficos e dark mode. React + TypeScript.', tags: ['React', 'TypeScript', 'Tailwind'], live: `${PG}/admin-dashboard/`, repo: `${GH}/admin-dashboard` },
   // Bibliotecas & ferramentas
   { icon: '🇧🇷', name: 'br-utils', cat: 'Biblioteca', desc: 'Biblioteca TypeScript de validação BR (CPF, CNPJ, CEP, PIS, cartão...). Testada com CI, zero deps.', tags: ['TypeScript', 'Vitest', 'npm'], live: `${PG}/br-utils/`, repo: `${GH}/br-utils` },
   { icon: '⌨️', name: 'br-gen', cat: 'CLI', desc: 'Ferramenta de terminal que gera dados brasileiros válidos para testes e seeds.', tags: ['Node.js', 'CLI', 'npm'], repo: `${GH}/br-gen` },
