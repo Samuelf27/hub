@@ -4,6 +4,9 @@ const GH = 'https://github.com/Samuelf27';
 const PG = 'https://samuelf27.github.io';
 
 const PROJECTS = [
+{ icon: '🔐', name: 'node-api-starter', cat: 'Corporativo', desc: 'Boilerplate de API REST de produção: JWT + refresh, RBAC, Zod, Swagger, Docker e testes.', tags: ['TypeScript', 'Express', 'Docker'], repo: `${GH}/node-api-starter` },
+  { icon: '🎨', name: 'react-ui-kit', cat: 'Biblioteca', desc: 'Design system React: componentes acessíveis, design tokens e dark mode. Publicável no npm.', tags: ['React', 'TypeScript', 'npm'], live: `${PG}/react-ui-kit/`, repo: `${GH}/react-ui-kit` },
+  { icon: '🧮', name: 'data-structures', cat: 'Biblioteca', desc: 'Estruturas de dados e algoritmos clássicos em TypeScript, com Big-O documentado e testes.', tags: ['TypeScript', 'algoritmos'], repo: `${GH}/data-structures-typescript` },
   { icon: '📊', name: 'Admin Dashboard', cat: 'Corporativo', desc: 'Painel administrativo profissional: autenticação, CRUD, tabela de dados, gráficos e dark mode. React + TypeScript.', tags: ['React', 'TypeScript', 'Tailwind'], live: `${PG}/admin-dashboard/`, repo: `${GH}/admin-dashboard` },
   // Bibliotecas & ferramentas
   { icon: '🇧🇷', name: 'br-utils', cat: 'Biblioteca', desc: 'Biblioteca TypeScript de validação BR (CPF, CNPJ, CEP, PIS, cartão...). Testada com CI, zero deps.', tags: ['TypeScript', 'Vitest', 'npm'], live: `${PG}/br-utils/`, repo: `${GH}/br-utils` },
